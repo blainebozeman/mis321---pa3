@@ -1,54 +1,9 @@
-// function handleOnLoad(){
-//     createCategoryTable();
-// }
 
-
-// let drivers = [];
-
-// function handleOnLoad(){
-//     createDriverTable();
-//     postDriver();
-
-// }
  
 
 
-// function createDriverTable(){
-//     let table = document.createElement('TABLE');
-//     table.id = 'driverTable';
-//     table.border = '1';
-//     table.className = 'table table-striped"'
-//     let tableBody = document.createElement('TBODY');
-//     tableBody.id = 'driverTableBody';
-//     table.appendChild(tableBody);
-
-//     //create header row
-//     let tr = document.createElement('TR');
-//     tableBody.appendChild(tr);
-
-//     // let th1 = document.createElement('TH');
-//     // th1.width = 150;
-//     // th1.appendChild(document.createTextNode('ID'));
-//     // tr.appendChild(th1);
-
-//     let th2 = document.createElement('TH');
-//     th2.width = 300;
-//     th2.appendChild(document.createTextNode('Name'));
-//     tr.appendChild(th2);
-
-//     let th3 = document.createElement('TH');
-//     th3.width = 150;
-//     th3.appendChild(document.createTextNode('Rating'));
-//     tr.appendChild(th3);
-
-//     let th4 = document.createElement('TH');
-//     th4.width = 150;
-//     th4.appendChild(document.createTextNode('Date Hired'));
-//     tr.appendChild(th4);
-//     console.log("made it here");
-//     return table;
-    
-// }
+//
+//     
 
 
 function getDrivers(){
