@@ -45,7 +45,7 @@ namespace api.Models
             rdr.Read();
             return new Drivers(){Id = rdr.GetInt32(0), Name = rdr.GetString(1), Rating = rdr.GetInt32(2), DateHired = rdr.GetDateTime(3), Deleted = rdr.GetBoolean(4)};
 
-
+//Hello! Adding this in!
 
 
         }
