@@ -139,6 +139,38 @@ function editDriver(id, rating){
     })
 }
 
+function createTable()
+{
+    let table = document.createElement('TABLE');
+    table.id = 'cityTable';
+    table.border = '1';
+    table.className = 'table table-striped"'
+    let tableBody = document.createElement('TBODY');
+    tableBody.id = 'cityTableBody';
+    table.appendChild(tableBody);
+
+    //create header row
+    let tr = document.createElement('TR');
+    tableBody.appendChild(tr);
+
+    let th1 = document.createElement('TH');
+    th1.width = 150;
+    th1.appendChild(document.createTextNode('Name'));
+    tr.appendChild(th1);
+
+    let th2 = document.createElement('TH');
+    th2.width = 300;
+    th2.appendChild(document.createTextNode('Country'));
+    tr.appendChild(th2);
+
+    let th3 = document.createElement('TH');
+    th3.width = 150;
+    th3.appendChild(document.createTextNode('Population'));
+    tr.appendChild(th3);
+
+    return table;
+}
+
 
 
     
